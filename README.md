@@ -40,4 +40,14 @@ This project represents the passion of an 11-year-old developer (Sodex) for codi
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE)
+
+
+## 🚀 How to Use?
+
+1.  **Select Language:** Use the dropdown menu to choose your preferred language.
+2.  **AI Background Remover:** Upload your image, and let Sodex AI handle the rest.
+3.  **System Tools:** Check your internet speed and system performance instantly.
+4.  **Customization:** Adjust the UI to fit your style!
+
+---.
