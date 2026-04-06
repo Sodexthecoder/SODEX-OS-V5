@@ -1,4 +1,17 @@
-# GitHub'ın dilleri doğru algılaması için
-*.py text eol=lf
-*.png binary
-*.jpg binary
+# Python gereksizleri
+__pycache__/
+*.py[cod]
+*$py.class
+
+# EXE yaparken oluşan devasa klasörler (KESİNLİKLE ENGELLE!)
+build/
+dist/
+*.spec
+
+# Sanal ortamlar
+venv/
+env/
+
+# İşletim sistemi çöpleri
+.DS_Store
+Thumbs.db
