@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# GitHub'ın dilleri doğru algılaması için
+*.py text eol=lf
+*.png binary
+*.jpg binary
