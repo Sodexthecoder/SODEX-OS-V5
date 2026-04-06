@@ -10,6 +10,8 @@ import base64
 from tkinter import filedialog, messagebox
 
 # --- SODEX GLOBAL V5: THE ARCHITECT ---
+VERSION = "5.0.1-Stable"
+DEVELOPER = "Sodex"
 def show_about(self):
     about_window = ctk.CTkToplevel(self)
     about_window.title("ABOUT SODEX OS")
@@ -63,7 +65,7 @@ LANGUAGES = {
 class SodexGlobalV5(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("SODEX OS GLOBAL V5")
+        self.title(f"SODEX OS V5 - {VERSION}")
         self.geometry("1100x750")
 
         # State
@@ -231,8 +233,6 @@ class SodexGlobalV5(ctk.CTk):
             with open(f, "rb") as r: d = base64.b64decode(r.read())
             with open(f.replace(".sodex", ""), "wb") as w: w.write(d)
             os.remove(f)
-            VERSION = "5.0.1-Stable"
-DEVELOPER = "Sodex"
 
 
 if __name__ == "__main__":
