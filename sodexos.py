@@ -231,6 +231,8 @@ class SodexGlobalV5(ctk.CTk):
             with open(f, "rb") as r: d = base64.b64decode(r.read())
             with open(f.replace(".sodex", ""), "wb") as w: w.write(d)
             os.remove(f)
+            VERSION = "5.0.1-Stable"
+DEVELOPER = "Sodex"
 
 
 if __name__ == "__main__":
